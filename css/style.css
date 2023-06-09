@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.head {
+    padding: 0;
+    
+}
+
+header
+{
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgba(166, 192, 254, 0.473) 0%, rgba(246, 128, 132, 0.459) 100%),
+    url(/img/women-dev.jpg);
+    background-position: center;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+
+.copy{
+    font-size: 30px;
+    color: white;
+}
+
+.button{
+    padding: 10px;
+    width: 140px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    
+    background-color: rgb(114, 59, 59);
+    color: white;
+    
+}
+
+.button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.cont-footer{
+    height: 30vh;
+    background-color: antiquewhite;
+}
+.hamburguesa{
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    background-color: rgb(108, 108, 209);
+    height: 60px;
+    width: 60;
+    border-radius: 10px;
+    cursor: pointer;
+}.menu-nav{
+    position: fixed;
+    right: 0%;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    justify-content:space-between;
+    transform: translate(110%);
+    transition-duration: 2s;
+}
+.container head{
+    border-radius: 10px;
+}
